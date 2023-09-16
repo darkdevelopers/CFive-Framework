@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CFive_Framework.Client", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CFive_Framework.Server", "Server\CFive_Framework.Server.csproj", "{721CE8B6-8718-4F08-81FC-426FAA1A007C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations", "Migrations\Migrations.csproj", "{AD397044-B5B5-436C-AE28-CA4778849454}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{721CE8B6-8718-4F08-81FC-426FAA1A007C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{721CE8B6-8718-4F08-81FC-426FAA1A007C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{721CE8B6-8718-4F08-81FC-426FAA1A007C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD397044-B5B5-436C-AE28-CA4778849454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD397044-B5B5-436C-AE28-CA4778849454}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD397044-B5B5-436C-AE28-CA4778849454}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD397044-B5B5-436C-AE28-CA4778849454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

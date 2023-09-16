@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CFive_Framework.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+717da495ed3e3c5302ad56f930eedf879d01d55f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CFive_Framework.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CFive_Framework.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

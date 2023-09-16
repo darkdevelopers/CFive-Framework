@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = CFive_Framework.Client
 build_property.ProjectDir = E:\CFive-Framework\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
