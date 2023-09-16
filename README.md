@@ -1,2 +1,2 @@
 # CFive-Framework
-FiveM Framework builded wirh C#
+FiveM Framework builded with C#
