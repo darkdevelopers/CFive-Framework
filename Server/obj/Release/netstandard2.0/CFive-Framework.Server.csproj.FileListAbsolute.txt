@@ -1,0 +1,11 @@
+E:\CFive-Framework\Server\bin\Release\netstandard2.0\CFive-Framework.Server.deps.json
+E:\CFive-Framework\Server\bin\Release\netstandard2.0\CFive-Framework.Server.net.dll
+E:\CFive-Framework\Server\bin\Release\netstandard2.0\CFive-Framework.Server.net.pdb
+E:\CFive-Framework\Server\obj\Release\netstandard2.0\CFive-Framework.Server.csproj.AssemblyReference.cache
+E:\CFive-Framework\Server\obj\Release\netstandard2.0\CFive-Framework.Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\CFive-Framework\Server\obj\Release\netstandard2.0\CFive-Framework.Server.AssemblyInfoInputs.cache
+E:\CFive-Framework\Server\obj\Release\netstandard2.0\CFive-Framework.Server.AssemblyInfo.cs
+E:\CFive-Framework\Server\obj\Release\netstandard2.0\CFive-Framework.Server.csproj.CoreCompileInputs.cache
+E:\CFive-Framework\Server\obj\Release\netstandard2.0\CFive-Framework.Server.net.dll
+E:\CFive-Framework\Server\obj\Release\netstandard2.0\CFive-Framework.Server.net.pdb
+E:\CFive-Framework\Server\bin\Release\netstandard2.0\appsettings.json
