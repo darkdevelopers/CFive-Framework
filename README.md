@@ -12,3 +12,9 @@ mklink /d X:\cfx-server-data\resources\[local]\CFive_Framework dist
 ```
 
 Afterwards, you can use `ensure CFive_Framework` in your server.cfg or server console to start the resource.
+
+# Server Migration Commands for PMC
+```
+dotnet ef migration add Users --project Server
+dotnet ef database update --project Server
+```

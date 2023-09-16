@@ -5,10 +5,14 @@
       "CitizenFX.Core.Client/1.0.6370": {
         "type": "package",
         "compile": {
-          "lib/net45/CitizenFX.Core.Client.dll": {}
+          "lib/net45/CitizenFX.Core.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/CitizenFX.Core.Client.dll": {}
+          "lib/net45/CitizenFX.Core.Client.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -88,7 +92,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.317\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23463.5\\RuntimeIdentifierGraph.json"
       }
     }
   }
