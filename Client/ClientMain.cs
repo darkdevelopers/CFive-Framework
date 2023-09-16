@@ -12,12 +12,12 @@ namespace CFive_Framework.Client
             Debug.WriteLine("Hi from CFive_Framework.Client!");
         }
 
-        [Tick]
+        /*[Tick]
         public Task OnTick()
         {
             DrawRect(0.5f, 0.5f, 0.5f, 0.5f, 255, 255, 255, 150);
 
             return Task.FromResult(0);
-        }
+        }*/
     }
 }
