@@ -22,8 +22,7 @@ namespace CFive_Framework.Server
                 $"User ID = {LoadConfiguration.getInstance().CFiveFrameworkConfiguration.CFiveDatabase.Username}; " +
                 $"Password = {LoadConfiguration.getInstance().CFiveFrameworkConfiguration.CFiveDatabase.Password}; " +
                 $"Database = {LoadConfiguration.getInstance().CFiveFrameworkConfiguration.CFiveDatabase.DatabaseName}";
-
-
+            
             optionsBuilder.UseMySql(this.DbPath);
         }
     }

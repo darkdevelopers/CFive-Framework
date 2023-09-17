@@ -7,3 +7,12 @@ E:\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.AssemblyInfo.c
 E:\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.csproj.CoreCompileInputs.cache
 E:\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.csproj.CopyComplete
 E:\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.net.dll
+C:\Users\metyx\Documents\CFive-Framework\Client\bin\Debug\net452\CFive_Framework.Client.net.dll
+C:\Users\metyx\Documents\CFive-Framework\Client\bin\Debug\net452\CitizenFX.Core.Client.dll
+C:\Users\metyx\Documents\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.csproj.AssemblyReference.cache
+C:\Users\metyx\Documents\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\metyx\Documents\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.AssemblyInfoInputs.cache
+C:\Users\metyx\Documents\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.AssemblyInfo.cs
+C:\Users\metyx\Documents\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.csproj.CoreCompileInputs.cache
+C:\Users\metyx\Documents\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.csproj.CopyComplete
+C:\Users\metyx\Documents\CFive-Framework\Client\obj\Debug\net452\CFive_Framework.Client.net.dll
