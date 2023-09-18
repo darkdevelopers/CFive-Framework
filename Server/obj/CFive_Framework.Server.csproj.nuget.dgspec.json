@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CFive-Framework\\Server\\CFive_Framework.Server.csproj": {}
+    "C:\\Users\\metyx\\Documents\\CFive-Framework\\Server\\CFive_Framework.Server.csproj": {}
   },
   "projects": {
-    "E:\\CFive-Framework\\Server\\CFive_Framework.Server.csproj": {
+    "C:\\Users\\metyx\\Documents\\CFive-Framework\\Server\\CFive_Framework.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CFive-Framework\\Server\\CFive_Framework.Server.csproj",
+        "projectUniqueName": "C:\\Users\\metyx\\Documents\\CFive-Framework\\Server\\CFive_Framework.Server.csproj",
         "projectName": "CFive_Framework.Server",
-        "projectPath": "E:\\CFive-Framework\\Server\\CFive_Framework.Server.csproj",
-        "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
-        "outputPath": "E:\\CFive-Framework\\Server\\obj\\",
+        "projectPath": "C:\\Users\\metyx\\Documents\\CFive-Framework\\Server\\CFive_Framework.Server.csproj",
+        "packagesPath": "C:\\Users\\metyx\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\metyx\\Documents\\CFive-Framework\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\metyx\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,6 +76,12 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[3.2.7, )"
@@ -85,7 +91,7 @@
               "version": "[4.8.5, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23463.5\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,6 +2,7 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)system.text.json\7.0.0\buildTransitive\net462\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\7.0.0\buildTransitive\net462\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net462\1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net462.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net462\1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net462.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.data.sqlclient.sni\1.1.0\buildTransitive\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.data.sqlclient.sni\1.1.0\buildTransitive\net46\Microsoft.Data.SqlClient.SNI.targets')" />
   </ImportGroup>
 </Project>
