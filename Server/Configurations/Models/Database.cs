@@ -4,15 +4,15 @@ using System.Text;
 
 namespace CFive_Framework.Server.Configurations.Models
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    public class Database
-    {
-        public string Host { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public string DatabaseName { get; set; }
-        public int Port { get; set; }
-    }
+	/// <summary>
+	/// 
+	/// </summary>
+	public class Database
+	{
+		public string Host { get; set; }
+		public string Username { get; set; }
+		public string Password { get; set; }
+		public string DatabaseName { get; set; }
+		public int Port { get; set; }
+	}
 }
