@@ -1,2 +1,0 @@
-E:\CFive-Framework\Client\bin\Release\net452\publish\CFive_Framework.Client.net.dll
-E:\CFive-Framework\Client\bin\Release\net452\publish\CitizenFX.Core.Client.dll

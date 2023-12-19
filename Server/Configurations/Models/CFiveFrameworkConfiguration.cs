@@ -8,5 +8,6 @@ namespace CFive_Framework.Server.Configurations.Models
 	{
 		public Database CFiveDatabase { get; set; }
 		public Discord CFiveDiscord { get; set; }
+		public CharacterSpawn CFiveCharacterSpawn { get; set; }
 	}
 }

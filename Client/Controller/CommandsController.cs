@@ -18,6 +18,7 @@ namespace CFive_Framework.Client.Controller
 				return;
 
 			RegisterCommand("car", new Action<int, List<object>, string>(VehicleController.CreateVehicle), false);
+			RegisterCommand("gps", new Action(GpsController.GetCoords), false);
 		}
 	}
 }

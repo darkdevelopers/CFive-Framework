@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.5.2": {
-      "CitizenFX.Core.Client/1.0.6370": {
+      "CitizenFX.Core.Client/1.0.7257": {
         "type": "package",
         "compile": {
           "lib/net45/CitizenFX.Core.Client.dll": {
@@ -15,13 +15,13 @@
           }
         }
       },
-      "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETFramework.ReferenceAssemblies.net452": "1.0.3"
+          "Microsoft.NETFramework.ReferenceAssemblies.net452": "1.0.2"
         }
       },
-      "Microsoft.NETFramework.ReferenceAssemblies.net452/1.0.3": {
+      "Microsoft.NETFramework.ReferenceAssemblies.net452/1.0.2": {
         "type": "package",
         "build": {
           "build/Microsoft.NETFramework.ReferenceAssemblies.net452.targets": {}
@@ -30,34 +30,34 @@
     }
   },
   "libraries": {
-    "CitizenFX.Core.Client/1.0.6370": {
-      "sha512": "t2PO3QPdXkRloPYeBjwFzd+ySl+2XXRmP7I0N/XCW0rmthrNejsDxaUL8VkKHy93z4hVQvFMfhv+ykISoqOKhw==",
+    "CitizenFX.Core.Client/1.0.7257": {
+      "sha512": "Sp4u4GNf85N3T+JP73uDLx7JctNcEzBLmPmiGbvUQ6GChhRoxYXIRI5Y3z+czbm9e7L1oowHsAUlBDPmNBFexg==",
       "type": "package",
-      "path": "citizenfx.core.client/1.0.6370",
+      "path": "citizenfx.core.client/1.0.7257",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "citizenfx.core.client.1.0.6370.nupkg.sha512",
+        "citizenfx.core.client.1.0.7257.nupkg.sha512",
         "citizenfx.core.client.nuspec",
         "lib/net45/CitizenFX.Core.Client.dll",
         "lib/net45/CitizenFX.Core.Client.xml"
       ]
     },
-    "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
-      "sha512": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
+    "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
+      "sha512": "5/cSEVld+px/CuRrbohO/djfg6++eR6zGpy88MgqloXvkj//WXWpFZyu/OpkXPN0u5m+dN/EVwLNYFUxD4h2+A==",
       "type": "package",
-      "path": "microsoft.netframework.referenceassemblies/1.0.3",
+      "path": "microsoft.netframework.referenceassemblies/1.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+        "microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
         "microsoft.netframework.referenceassemblies.nuspec"
       ]
     },
-    "Microsoft.NETFramework.ReferenceAssemblies.net452/1.0.3": {
-      "sha512": "kuFOgilYbs29xENHlqQ6aJYa+t56u+OqHx85P7GYLVlo7HL3nsug9IQY2DoPgkOpZ2xb9btYV2EFK7Enll8S3A==",
+    "Microsoft.NETFramework.ReferenceAssemblies.net452/1.0.2": {
+      "sha512": "H67KhF+Lldlvr/N55gbtlZNCLq20mPGKFaPLbUkK19boUq/7DTJEHAsxC6yUADKlH1Li/bcyeowB/A484ECDPA==",
       "type": "package",
-      "path": "microsoft.netframework.referenceassemblies.net452/1.0.3",
+      "path": "microsoft.netframework.referenceassemblies.net452/1.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -372,7 +372,7 @@
         "build/.NETFramework/v4.5.2/sysglobl.dll",
         "build/.NETFramework/v4.5.2/sysglobl.xml",
         "build/Microsoft.NETFramework.ReferenceAssemblies.net452.targets",
-        "microsoft.netframework.referenceassemblies.net452.1.0.3.nupkg.sha512",
+        "microsoft.netframework.referenceassemblies.net452.1.0.2.nupkg.sha512",
         "microsoft.netframework.referenceassemblies.net452.nuspec"
       ]
     }
@@ -380,30 +380,28 @@
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5.2": [
       "CitizenFX.Core.Client >= 1.0.*",
-      "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3"
+      "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\metyx\\.nuget\\packages\\": {}
+    "C:\\Users\\BlackFyre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\metyx\\Documents\\CFive-Framework\\Client\\CFive_Framework.Client.csproj",
+      "projectUniqueName": "C:\\Users\\BlackFyre\\RiderProjects\\CFive-Framework\\Client\\CFive_Framework.Client.csproj",
       "projectName": "CFive_Framework.Client",
-      "projectPath": "C:\\Users\\metyx\\Documents\\CFive-Framework\\Client\\CFive_Framework.Client.csproj",
-      "packagesPath": "C:\\Users\\metyx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\metyx\\Documents\\CFive-Framework\\Client\\obj\\",
+      "projectPath": "C:\\Users\\BlackFyre\\RiderProjects\\CFive-Framework\\Client\\CFive_Framework.Client.csproj",
+      "packagesPath": "C:\\Users\\BlackFyre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BlackFyre\\RiderProjects\\CFive-Framework\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\metyx\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\BlackFyre\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net452"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -429,7 +427,7 @@
           "Microsoft.NETFramework.ReferenceAssemblies": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[1.0.3, )",
+            "version": "[1.0.2, )",
             "autoReferenced": true
           }
         },
@@ -444,7 +442,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

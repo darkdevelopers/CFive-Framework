@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\metyx\\Documents\\CFive-Framework\\Client\\CFive_Framework.Client.csproj": {}
+    "C:\\Users\\BlackFyre\\RiderProjects\\CFive-Framework\\Client\\CFive_Framework.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\metyx\\Documents\\CFive-Framework\\Client\\CFive_Framework.Client.csproj": {
+    "C:\\Users\\BlackFyre\\RiderProjects\\CFive-Framework\\Client\\CFive_Framework.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\metyx\\Documents\\CFive-Framework\\Client\\CFive_Framework.Client.csproj",
+        "projectUniqueName": "C:\\Users\\BlackFyre\\RiderProjects\\CFive-Framework\\Client\\CFive_Framework.Client.csproj",
         "projectName": "CFive_Framework.Client",
-        "projectPath": "C:\\Users\\metyx\\Documents\\CFive-Framework\\Client\\CFive_Framework.Client.csproj",
-        "packagesPath": "C:\\Users\\metyx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\metyx\\Documents\\CFive-Framework\\Client\\obj\\",
+        "projectPath": "C:\\Users\\BlackFyre\\RiderProjects\\CFive-Framework\\Client\\CFive_Framework.Client.csproj",
+        "packagesPath": "C:\\Users\\BlackFyre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BlackFyre\\RiderProjects\\CFive-Framework\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\metyx\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\BlackFyre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net452"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,7 +45,7 @@
             "Microsoft.NETFramework.ReferenceAssemblies": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.0.3, )",
+              "version": "[1.0.2, )",
               "autoReferenced": true
             }
           },
@@ -62,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
