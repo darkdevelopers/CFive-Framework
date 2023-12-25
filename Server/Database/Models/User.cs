@@ -8,7 +8,7 @@ namespace CFive_Framework.Server.Database.Models
 	public class User
 	{
 		[Key] public int Id { get; set; }
-		public string FirstName { get; set; }
-		public string SurName { get; set; }
+		public string DiscordId { get; set; }
+		public string SteamId { get; set; }
 	}
 }

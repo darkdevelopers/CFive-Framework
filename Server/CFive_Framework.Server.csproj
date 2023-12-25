@@ -36,5 +36,9 @@
             <CopyToOutputDirectory>Never</CopyToOutputDirectory>
         </EmbeddedResource>
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Migrations\" />
+    </ItemGroup>
 </Project>
   

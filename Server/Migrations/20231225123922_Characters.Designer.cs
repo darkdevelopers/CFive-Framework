@@ -2,14 +2,16 @@
 using CFive_Framework.Server;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CFive_Framework.Server.Migrations
 {
     [DbContext(typeof(CFiveFrameworkDatabaseContext))]
-    partial class CFiveFrameworkDatabaseContextModelSnapshot : ModelSnapshot
+    [Migration("20231225123922_Characters")]
+    partial class Characters
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

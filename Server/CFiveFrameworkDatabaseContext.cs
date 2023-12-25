@@ -10,6 +10,7 @@ namespace CFive_Framework.Server
 	{
 		private string DbPath { get; set; }
 		public DbSet<User> Users { get; set; }
+		public DbSet<Character> Characters { get; set; }
 
 		public CFiveFrameworkDatabaseContext()
 		{
