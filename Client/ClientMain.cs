@@ -1,16 +1,28 @@
+using System;
+using System.Dynamic;
+using CFive_Framework.Client.Controller;
 using CitizenFX.Core;
+using Mono.CSharp;
 
 namespace CFive_Framework.Client
 {
 	public class Client : BaseScript
 	{
-		
 		public Client()
 		{
-			Debug.WriteLine($"{Game.PlayerPed.Model.Hash.GetHashCode()}");
+			
+			dynamic spawnObject = new ExpandoObject();
+			spawnObject.x = -1038.012;
+			spawnObject.y = -2737.956;
+			spawnObject.z = 20.16927;
+			spawnObject.heading = 0.0;
+			spawnObject.model = "a_m_m_farmer_01";
+			
 			Exports["spawnmanager"].setAutoSpawn(false);
-			var spawn = "{\"x\": \"466.8401\", \"y\": \"197.7201\", \"z\": \"111.5291\", \"heading\": \"291.71\", \"model\": \"a_m_m_farmer_01\"}";
-			Exports["spawnmanager"].addSpawnPoint(spawn);
+			Exports["spawnmanager"].setAutoSpawnCallback(Exports["spawnmanager"].spawnPlayer(spawnObject));
+			Exports["spawnmanager"].forceRespawn();
+			
+			Debug.WriteLine($"{Game.PlayerPed.Model.Hash.GetHashCode()}");
 			Debug.WriteLine("Hi from CFive_Framework.Client!");
 		}
 	}
